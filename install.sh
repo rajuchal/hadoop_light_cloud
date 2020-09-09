@@ -61,6 +61,7 @@ sudo chmod 644 /etc/hosts
 # Create directory to store the MongoDB document
 sudo mkdir -p /data/db
 sudo chmod 777 -R /data
+sudo chown -R $USER:$USER /data
 
 # Create directory to store the required software
 mkdir -p $HOME/bigdata
@@ -70,6 +71,7 @@ pwd
 # Create directories for name node and data node
 sudo mkdir -p /app/bigdata
 sudo chmod 777 -R /app/
+sudo chown -R $USER:$USER /app
 
 mkdir -p /app/bigdata/hadoop_tmp/hdfs/namenode
 mkdir -p /app/bigdata/hadoop_tmp/hdfs/datanode

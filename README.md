@@ -43,27 +43,27 @@ Automation Script for creating single node _hadoop/spark/kafka/cassanda/mongodb_
 
 1. Download the script file in Windows
 
-##### $ sudo apt-get install unzip 
+      ##### $ sudo apt-get install unzip 
 
-##### $ wget https://github.com/rajuchal/hadoop_light_cloud/archive/master.zip
+      ##### $ wget https://github.com/rajuchal/hadoop_light_cloud/archive/master.zip
 
 2. _"master.zip"_ file will downloaded , Unzip the file "master.zip"
 
-##### $ ls
-##### $ unzip master.zip
-##### $ ls
+      ##### $ ls
+      ##### $ unzip master.zip
+      ##### $ ls
 
 3. Change the extracted folder name
 
-##### $ mv hadoop_light_cloud-master hadoop_light_cloud
-##### $ cd hadoop_light_cloud
-##### $ ls
+      ##### $ mv hadoop_light_cloud-master hadoop_light_cloud
+      ##### $ cd hadoop_light_cloud
+      ##### $ ls
 
 4. Change the permission & run the "install.sh" script
 
-##### $ chmod 755 install.sh
+      ##### $ chmod 755 install.sh
 
-##### $ ./install.sh
+      ##### $ ./install.sh
 
 
 ##### ------------- Wait till you get back the $ Prompt with message 'Your environment is ready'
@@ -71,10 +71,10 @@ Automation Script for creating single node _hadoop/spark/kafka/cassanda/mongodb_
 
 6. After getting back the $ Prompt execute the below commands 
 
-##### $ cd ~
-##### $ source .bashrc
+      ##### $ cd ~
+      ##### $ source .bashrc
 
-##### $ jps
+      ##### $ jps
 	11538 Jps
 	9716 DataNode
 	9942 SecondaryNameNode

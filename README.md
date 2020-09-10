@@ -1,6 +1,7 @@
-### Automated Setup & Installation Guide for Hadoop Single Node Cluster Environment
-### using light-weight script with Spark/Kafka/Cassandra/MongoDB
-#### (Pseudo Distributed mode)
+## Automated Setup & Installation Guide 
+## for Hadoop Single Node Cluster Environment
+## using light-weight script with Spark/Kafka/Cassandra/MongoDB
+### (Pseudo Distributed mode)
 ##### ==============================================================================
 
 #### Single Node _Hadoop/Spark/HBase/Kafka/Cassandra/MongoDB_ Cluster on Ubuntu Linux
@@ -47,7 +48,7 @@ Automation Script for creating single node _hadoop/spark/kafka/cassanda/mongodb_
 
       ##### $ wget https://github.com/rajuchal/hadoop_light_cloud/archive/master.zip
 
-2. _"master.zip"_ file will downloaded , Unzip the file "master.zip"
+2. _"master.zip"_ file will be downloaded , Unzip the file "master.zip"
 
       ##### $ ls
       ##### $ unzip master.zip
@@ -66,8 +67,8 @@ Automation Script for creating single node _hadoop/spark/kafka/cassanda/mongodb_
       ##### $ ./install.sh
 
 
-##### ------------- Wait till you get back the $ Prompt with message 'Your environment is ready'
-##### ------------- Depending on the bandwidh total installation may take 45 mins to 1 hr time
+      ##### ------------- Wait till you get back the $ Prompt with message 'Your environment is ready'
+      ##### ------------- Depending on the bandwidh total installation may take 45 mins to 1 hr time
 
 6. After getting back the $ Prompt execute the below commands 
 

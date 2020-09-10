@@ -384,14 +384,14 @@ $HOME/bigdata/hadoop/bin/hdfs dfs -copyFromLocal $HOME/bigdata/hadoop/README.txt
 $HOME/bigdata/hadoop/bin/hdfs dfs -cat /user/$USER/wordcount/input/README.txt
 
 # Run the wordcount example bundled with the hadoop binaries
-$HOME/bigdata/hadoop/bin/hadoop jar $HOME/bigdata/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.9.2.jar wordcount wordcount/input wordcount/output
+# $HOME/bigdata/hadoop/bin/hadoop jar $HOME/bigdata/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.9.2.jar wordcount wordcount/input wordcount/output
 
 # Verify the output
-$HOME/bigdata/hadoop/bin/hdfs dfs -cat /user/$USER/wordcount/output/part*
+# $HOME/bigdata/hadoop/bin/hdfs dfs -cat /user/$USER/wordcount/output/part*
 
 #Execute a Spark Example
-echo "------------RUNNING SPARK EXAMPLE ------------------------------"
-$HOME/bigdata/spark/bin/run-example SparkPi 10
+# echo "------------RUNNING SPARK EXAMPLE ------------------------------"
+# $HOME/bigdata/spark/bin/run-example SparkPi 10
 
 # Check whether the Spark shell is running in local mode
 #$HOME/bigdata/spark/bin/spark-shell --master local[*]
